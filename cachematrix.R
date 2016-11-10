@@ -1,7 +1,9 @@
-## Put comments in ddhere that give an overall description of what your
-## functions do
+## 2 functions that will help potential time consuming computations
+## by using cache
 
-## Write a short comment describing this function
+
+
+## This function creates a special "matrix" object that can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
        inver <- NULL
